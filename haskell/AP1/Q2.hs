@@ -2,6 +2,10 @@
 -- que recebe uma String referente a fatura anual e 
 -- retorna uma tupla com o menor e o maior dos valores gastos.
 
+-- Exemplo:
+-- Main> minMaxCartao logCartao
+-- (3.5, 40.32)
+
 logCartao = "14 JAN;Amazon;40.32;15 JAN;Uber;14.84;25 JAN;Uber;34.24;02 FEV;Spotify;8.50;06 FEV;Uber;6.94;05 MAR;Burger;29.90;10 MAR;Burger;24.99;15 MAR;UCI;19.00;08 ABR;Itunes;3.50;13 ABR;Picpay;20.00;"
 
 replace :: String -> Char -> Char -> String
