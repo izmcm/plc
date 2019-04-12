@@ -9,6 +9,7 @@ area :: Shape -> Float
 area (Circle r) = pi*r*r
 area (Rectangle h m) = h*m
 
+-------------------------------------------------------------------------------
 -- tipo type mas permite recursão (caso base Nil)   
 data List t = Nil | Cons t (List t)
     deriving (Show)

@@ -1,7 +1,6 @@
 -- [Q2] Dado o seguinte tipo algébrico
 
-data IntTree = Nilt |
-                Node Int (IntTree) (IntTree) deriving Eq
+data IntTree = Nilt | Node Int (IntTree) (IntTree) deriving Eq
 
 -- Escreva uma função isBST :: IntTree -> Bool que checa se uma árvore é uma árvore de busca binária. Considerar que nenhum dos elementos se repetirá.
 
