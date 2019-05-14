@@ -8,6 +8,7 @@
 -- substr :: String -> String -> Bool
 
 substr :: String -> String -> Bool
+substr [] _ = True
 substr _ [] = False
 substr sub (a:as)
           | a == sub!!0 && (take (length(sub)) (a:as)) == sub = True
